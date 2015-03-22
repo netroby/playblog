@@ -1,4 +1,4 @@
-name := """play-blog-me"""
+name := """wingo"""
 
 version := "1.0-SNAPSHOT"
 
@@ -12,5 +12,6 @@ libraryDependencies ++= Seq(
   jdbc,
   anorm,
   cache,
-  ws
+  ws,
+  "mysql" % "mysql-connector-java" % "5.1.34"
 )
