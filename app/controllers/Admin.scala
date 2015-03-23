@@ -9,4 +9,8 @@ object Admin extends Controller {
     Ok("admin/index")
   }
 
+  def login = Action {
+    Ok("admin/login")
+  }
+
 }

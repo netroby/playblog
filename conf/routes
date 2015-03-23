@@ -9,6 +9,8 @@ GET        /account             controllers.Application.account
 # Admin
 
 GET        /admin               controllers.Admin.index
+GET        /admin/login         controllers.Admin.login
+
 
 
 # Map static resources from the /public folder to the /assets URL path
