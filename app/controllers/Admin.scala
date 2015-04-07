@@ -15,8 +15,8 @@ object Admin extends Controller {
 
   def login = Action {
     DB.withConnection { implicit c =>
-      val result: Boolean = SQL("Select 1").execute()
-      Ok("admin/login" + result)
+      val blog = SQL("Select * from blogs").apply().head
+      Ok("admin/login " + blog[String]("title") + blog[String]("content"))
     }
   }
 
