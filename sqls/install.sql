@@ -1,1 +1,8 @@
 CREATE DATABASE `wingo` /*!40100 DEFAULT CHARACTER SET utf8mb4 */
+CREATE TABLE `deyihome`.`blogs` (
+`id` INT NOT NULL AUTO_INCREMENT,
+`title` VARCHAR(250) NOT NULL DEFAULT '',
+`content` TEXT NULL,
+`publishtime` DATETIME NULL,
+`status` TINYINT NULL,
+PRIMARY KEY (`id`));
