@@ -1,0 +1,16 @@
+@(blogs: Stream[anorm.Row])
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Blog list</title>
+    </head>
+    <body>
+        @for(b <- blogs) {
+            <li><strong>@b[String]("title")</strong>
+            <p>@b[String]("content")</p>
+            </li>
+        }
+    </body>
+</html>
