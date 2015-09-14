@@ -12,7 +12,6 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
-  "org.spec2" % "3.6.4" % "test",
   "mysql" % "mysql-connector-java" % "5.1.36",
   "com.typesafe.play" %% "anorm" % "2.4.0"
 
