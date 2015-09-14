@@ -10,10 +10,11 @@ javaOptions += "-Xms128m -Xmn256m -Xmx512m -XX:UseG1GC -server "
 
 libraryDependencies ++= Seq(
   jdbc,
-  anorm,
   cache,
   ws,
-  specs2 % Test
-  "mysql" % "mysql-connector-java" % "5.1.36"
+  "org.spec2" % "3.6.4" % "test",
+  "mysql" % "mysql-connector-java" % "5.1.36",
+  "com.typesafe.play" %% "anorm" % "2.4.0"
+
 )
 routesGenerator := InjectedRoutesGenerator
