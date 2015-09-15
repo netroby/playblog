@@ -5,6 +5,7 @@ Playblog is an blog webapp written with Scala , using playframework.
 # Prequirement
 
 You should have activator installed on your system, you can obtain it from https://www.typesafe.com/activator/download 
+JDK7 + requrired, suggest you installed JDK8
 
 # Install 
 
