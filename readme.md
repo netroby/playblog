@@ -24,7 +24,14 @@ Then you need to configure mysql server connection information by  vi conf/appli
 
 # Run
 
+```
 activator run
+```
 
+## Donate me please
+
+![Scan QRCode donate me via Alipay](https://www.netroby.com/assets/images/alipayme.jpg)
+
+**Scan QRCode donate me via Alipay**
 
 
